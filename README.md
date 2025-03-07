@@ -33,6 +33,13 @@ Tempo e mudança, escala e crescimento e compensação e custos.
 
 
 3 exemplos de Trade-off:
+
 1 - Python x Java (Acessibilidade x Portabilidade)
+
 2 - Sistema complexo x Orçamento 
+
 3 - Consumo de recursos x Flexibilidade 
+
+
+Comentário do slide 57: A criação de um projeto grande e complexo depende da execução de várias pequenas etapas. Porém, essas etapas não devem ser criadas como se fossem partes divididas do projeto, mas sim um projeto de fato, menor do que o sistema completo mas funcional.
+
