@@ -10,7 +10,7 @@ Unlike those more established engineering professions, current software engineer
 A engenharia de software não segue diretrizes tão rígidas quanto as outras engenharias. Apesar disso, o trabalho de um engenheiro de software também inclui a criação de algo real, importante e extremamente presente nas nossas vidas. Se trata
 de algo além de apenas a criação do código.
 
-#📝Texto 2
+# 📝Texto 2
 
 Programming Over Time
 We propose that “software engineering” encompasses not just the act of writing code, but all of the tools and processes an organization uses to build and maintain that code over time. What practices can a software organization introduce that will best keep its code valuable over the long term? How can engineers make a codebase more sustainable and the software engineering discipline itself more rigorous? We don’t have fundamental answers to these questions, but we hope that Google’s collective experience over the past two decades illuminates possible paths toward finding those answers.
