@@ -9,14 +9,9 @@ public class Placar {
         this.log = l;
     }
 
-    public void setResultado(String resultado) {
-        this.resultado = resultado;
-        notificarObservadores();
-    }
-
-    private void notificarObservadores() {
-        for (Observador obs : observadores) {
-            obs.atualizar(resultado);
-        }
+    public void atualizarResultado(String resultado) {
+        torcedor.atualizar(resultado);
+        comentarista.atualizar(resultado);
+        log.atualizar(resultado);
     }
 }
