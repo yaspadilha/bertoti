@@ -1,16 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Placar placar = new Placar();
 
-        Torcedor t1 = new Torcedor("Yasmin");
-        Comentarista c1 = new Comentarista("Caio Ribeiro");
+        Torcedor t = new Torcedor();
+        Comentarista c = new Comentarista();
         LogPartida log = new LogPartida();
 
-        placar.adicionarObservador(t1);
-        placar.adicionarObservador(c1);
-        placar.adicionarObservador(log);
+        Placar placar = new Placar(t, c, log);
 
-        placar.setResultado("Corinthians 1 x 0 Palmeiras");
-        placar.setResultado("Corinthians 2 x 0 Palmeiras");
+        placar.atualizarResultado("Time A 1 x 0 Time B");
     }
 }
