@@ -7,6 +7,6 @@ public class Main {
 
         Placar placar = new Placar(t, c, log);
 
-        placar.atualizarResultado("Time A 1 x 0 Time B");
+        placar.atualizarResultado("Corinthians 1 x 0 Palmeiras");
     }
 }
